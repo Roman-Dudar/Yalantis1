@@ -24,7 +24,7 @@
                 android:layout_columnSpan="2"/>
 
             <TextView
-                style="@style/WhiteText"
+                style="@style/BaseText.White"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/ticket_status"
@@ -34,14 +34,14 @@
             <View style="@style/Divider" android:layout_columnSpan="2" />
 
             <TextView
-                style="@style/GrayText"
+                style="@style/BaseText.Gray"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/created_title"
                 android:layout_gravity="left"/>
 
             <TextView
-                style="@style/BlackText"
+                style="@style/BaseText.Black"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="@string/created_date"
@@ -50,14 +50,14 @@
             <View style="@style/Divider" android:layout_columnSpan="2" />
 
             <TextView
-                style="@style/GrayText"
+                style="@style/BaseText.Gray"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/registered_title"
                 android:layout_gravity="left"/>
 
             <TextView
-                style="@style/BlackText"
+                style="@style/BaseText.Black"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="@string/registered_date"
@@ -66,14 +66,14 @@
             <View style="@style/Divider" android:layout_columnSpan="2" />
 
             <TextView
-                style="@style/GrayText"
+                style="@style/BaseText.Gray"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/deadline_title"
                 android:layout_gravity="left"/>
 
             <TextView
-                style="@style/BlackText"
+                style="@style/BaseText.Black"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="@string/deadline_date"
@@ -82,14 +82,14 @@
             <View style="@style/Divider" android:layout_columnSpan="2" />
 
             <TextView
-                style="@style/GrayText"
+                style="@style/BaseText.Gray"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/responsible_title"
                 android:layout_gravity="left"/>
 
             <TextView
-                style="@style/BlackText"
+                style="@style/BaseText.Black"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="@string/responsible_name"
@@ -98,7 +98,7 @@
             <View style="@style/Divider" android:layout_columnSpan="2" />
 
             <TextView
-                style="@style/BlackText"
+                style="@style/BaseText.Black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ticket_description"
