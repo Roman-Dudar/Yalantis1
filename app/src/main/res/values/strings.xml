@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Yalantis1</string>
+    <string name="ticket_id">CE-1257218</string>
+    <string name="ticket_domain">Комунальне господарство</string>
+    <string name="ticket_status">В роботі</string>
+    <string name="ticket_description">
+        Открытый люк (возле рекламного щита), район поворота 18 и 19 трамваев на проспект Мира с
+        Донецкого шоссе
+    </string>
+
+    <string name="created_title">Створено</string>
+    <string name="created_date">25 лютого 2016</string>
+    <string name="registered_title">Зареєстровано</string>
+    <string name="registered_date">26 лютого 2016</string>
+    <string name="deadline_title">Вирішити до</string>
+    <string name="deadline_date">29 лютого 2016</string>
+    <string name="responsible_title">Відповідальний</string>
+    <string name="responsible_name">Дніпропетровський МВК()</string>
+
+</resources>

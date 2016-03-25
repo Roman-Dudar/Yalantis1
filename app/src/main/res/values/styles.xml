@@ -1,0 +1,53 @@
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/shady_white</item>
+
+    </style>
+
+
+    <style name="AppTheme.View">
+        <item name="android:onClick">onViewClick</item>
+    </style>
+
+    <style name="Divider" parent="AppTheme.View">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">@color/light_gray</item>
+        <item name="android:layout_marginTop">@dimen/view_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/view_margin_bottom</item>
+    </style>
+
+    <style name="AppTheme.ImageView" parent="AppTheme.View">
+        <item name="android:layout_marginRight">@dimen/view_margin_right</item>
+        <item name="android:layout_width">@dimen/image_width</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="BaseText" parent="AppTheme.View">
+        <item name="android:textSize">@dimen/base_text</item>
+    </style>
+    <style name="BlackText" parent="AppTheme.View">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Title" parent="BlackText">
+        <item name="android:textSize">@dimen/title_text</item>
+        <item name="android:layout_marginBottom">@dimen/view_margin_bottom</item>
+    </style>
+    <style name="WhiteText" parent="AppTheme.View">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="GrayText" parent="AppTheme.View">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+</resources>
