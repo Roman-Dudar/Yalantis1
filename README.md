@@ -25,8 +25,9 @@ Requirments:
 
 
 UI Mistakes: "floating" margins for dividers, size of back button (arrow) doesn't play with other elements.
-Suggestion is to use same padding for textviews (done)
-Suggestion is to use same margin for both root layout and toolbar layout as per google guides (not done)
+Suggestion is to use same padding for textviews (done).
+Suggestion is to use same margin for both root layout and toolbar layout as per google guides (not done).
+Suggestion is to use drawable back button icon with size of base font (not done).
 
 It might also be better if textview with custom shape and title would reside on the same row.
 
