@@ -42,7 +42,7 @@ public class ImagesAdapter extends RecyclerView.Adapter<ImagesAdapter.MyViewHold
         Context context = holder.imageView.getContext();
         Picasso.with(context)
                 .load(currentImageId)
-                .rotate(90)
+                .rotate(90) //[Comment] Why? Use please crop feature
                 .fit()
                 .centerInside()
                 .into(holder.imageView);

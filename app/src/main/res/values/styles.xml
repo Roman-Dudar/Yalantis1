@@ -25,6 +25,8 @@
         <item name="android:layout_marginBottom">@dimen/view_margin_bottom</item>
     </style>
 
+    <!-- [Comment] Don't use relativity attributes in styles -->
+
     <style name="AppTheme.ImageView" parent="AppTheme.View">
         <item name="android:layout_marginRight">@dimen/view_margin_right</item>
         <item name="android:layout_width">@dimen/image_width</item>

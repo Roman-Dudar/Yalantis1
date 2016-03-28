@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
 
-        RecyclerView mImagesRecycler = (RecyclerView)findViewById(R.id.images_recycler);
+        RecyclerView mImagesRecycler = (RecyclerView)findViewById(R.id.images_recycler); //[Comment] Without "m" it's not a field
         mImagesRecycler.setLayoutManager(layoutManager);
 
         ImagesAdapter adapter = new ImagesAdapter(Ticket.IMAGES_IDS);
         mImagesRecycler.setAdapter(adapter);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true); //[Comment] Can be null. Add if else statement
     }
 
     public void onViewClick(View v) {
