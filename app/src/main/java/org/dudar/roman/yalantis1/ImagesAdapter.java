@@ -42,9 +42,8 @@ public class ImagesAdapter extends RecyclerView.Adapter<ImagesAdapter.MyViewHold
         Context context = holder.imageView.getContext();
         Picasso.with(context)
                 .load(currentImageId)
-                .rotate(90)
+                .centerCrop()
                 .fit()
-                .centerInside()
                 .into(holder.imageView);
     }
 

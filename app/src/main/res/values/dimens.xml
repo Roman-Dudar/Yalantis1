@@ -10,7 +10,7 @@
 
     <dimen name="viewGroup_padding">16dp</dimen>
 
-    <dimen name="image_height">320dp</dimen>
+    <dimen name="image_height">240dp</dimen>
     <dimen name="image_width">160dp</dimen>
 
     <dimen name="title_text">16sp</dimen>

@@ -19,14 +19,16 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
 
-        RecyclerView mImagesRecycler = (RecyclerView)findViewById(R.id.images_recycler);
-        mImagesRecycler.setLayoutManager(layoutManager);
+        RecyclerView imagesRecycler = (RecyclerView)findViewById(R.id.images_recycler);
+        imagesRecycler.setLayoutManager(layoutManager);
 
         ImagesAdapter adapter = new ImagesAdapter(Ticket.IMAGES_IDS);
-        mImagesRecycler.setAdapter(adapter);
+        imagesRecycler.setAdapter(adapter);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
     }
 
     public void onViewClick(View v) {

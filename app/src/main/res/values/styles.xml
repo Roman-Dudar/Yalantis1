@@ -18,7 +18,6 @@
     </style>
 
     <style name="Divider" parent="AppTheme.View">
-        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/divider_height</item>
         <item name="android:background">@color/light_gray</item>
         <item name="android:layout_marginTop">@dimen/view_margin_top</item>
@@ -26,6 +25,7 @@
     </style>
 
     <style name="AppTheme.ImageView" parent="AppTheme.View">
+        <item name="android:layout_marginTop">@dimen/view_margin_top</item>
         <item name="android:layout_marginRight">@dimen/view_margin_right</item>
         <item name="android:layout_width">@dimen/image_width</item>
         <item name="android:layout_height">@dimen/image_height</item>
@@ -35,16 +35,20 @@
     <style name="BaseText" parent="AppTheme.View">
         <item name="android:textSize">@dimen/base_text</item>
     </style>
+
     <style name="BaseText.Black" parent="BaseText">
         <item name="android:textColor">@color/black</item>
     </style>
+
     <style name="Title" parent="BaseText.Black">
         <item name="android:textSize">@dimen/title_text</item>
         <item name="android:layout_marginBottom">@dimen/view_margin_bottom</item>
     </style>
+
     <style name="BaseText.White" parent="BaseText">
         <item name="android:textColor">@color/white</item>
     </style>
+
     <style name="BaseText.Gray" parent="BaseText">
         <item name="android:textColor">@color/dark_gray</item>
     </style>
